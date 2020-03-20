@@ -17,7 +17,7 @@ export default class MyDocument extends Document {
                 사용된 페이지의 경우엔 이 기본값 위에 덮어씌웁니다. */}
                 <Head>
                     <style>{`body {margin:0} /* custom! */`}</style>
-                    <title>Next.js 연습</title>
+                    {/* <title>Next.js 연습</title> */}
                 </Head>
                 <body>
                     <Main/>
